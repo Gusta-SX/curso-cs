@@ -1,3 +1,17 @@
-﻿// See https://aka.ms/new-console-template for more information
-var texto = "first testes";
-Console.WriteLine(texto);
+﻿// importções
+using System;
+
+// namespaces
+namespace Teste
+{
+  // classe
+  class Program
+  {
+    // metodo principal
+    static void Main(string[] args)
+    {
+      var texto = "Testando";
+      Console.WriteLine(texto);
+    }
+  }
+}
