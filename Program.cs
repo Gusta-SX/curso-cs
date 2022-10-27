@@ -1,7 +1,7 @@
 ﻿// importções
 using System;
 
-// namespaces
+// namespaces - divisão lógica de classes
 namespace Teste
 {
   // classe
