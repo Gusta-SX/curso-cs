@@ -10,8 +10,16 @@ namespace Teste
     // metodo principal
     static void Main(string[] args)
     {
-      var texto = "Testando";
-      Console.WriteLine(texto);
+      // VARIAVEL: 
+      // é algo que usamos para armazenar uma informação
+
+      // EXEMPLOS:
+      // int idade; // começa com 0
+      // int idade1 = 25; // começa com 25
+      // var idade2 = 25; // começa com 25
+      // var idade3; // errado
+
+      // Console.WriteLine(idade2);
     }
   }
 }
