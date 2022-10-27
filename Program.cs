@@ -10,16 +10,12 @@ namespace Teste
     // metodo principal
     static void Main(string[] args)
     {
-      // VARIAVEL: 
-      // é algo que usamos para armazenar uma informação
+      // CONSTANTES: 
+      // também armazenam informações porém nao podem ser alteradas
 
       // EXEMPLOS:
-      // int idade; // começa com 0
-      // int idade1 = 25; // começa com 25
-      // var idade2 = 25; // começa com 25
-      // var idade3; // errado
-
-      // Console.WriteLine(idade2);
+      // const int idade = 21; // começa com 25
+      // const var idade2 = 34 // errado - var nao pode ser const
     }
   }
 }
