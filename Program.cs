@@ -1,4 +1,4 @@
-﻿// importções
+﻿// importções - definem o que nosso programa irá utilizar
 using System;
 
 // namespaces - divisão lógica de classes
