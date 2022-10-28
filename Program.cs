@@ -10,12 +10,9 @@ namespace Teste
     // metodo principal
     static void Main(string[] args)
     {
-      // CONSTANTES: 
-      // também armazenam informações porém nao podem ser alteradas
-
-      // EXEMPLOS:
-      // const int idade = 21; // começa com 25
-      // const var idade2 = 34 // errado - var nao pode ser const
+      // BYTES:
+      // o tipo byte é usado pra representar um byte de fato, justamente com o sbyte que permite valores negativos
+      byte meuByte = 120; // por exemplo
     }
   }
 }
