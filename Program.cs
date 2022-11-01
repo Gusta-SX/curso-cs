@@ -10,15 +10,12 @@ namespace Teste
     // metodo principal
     static void Main(string[] args)
     {
-      // NUMEROS REAIS:
-      // numeros que precisam de melhor precisão, ou seja, virgulas
-      // - float (notação F)
-      // - double
-      // - decimal (notação m)
+      // BOOLEAN:
+      // armazena true ou false, definido pela palavra bool
 
-      // float salario = 2.500f;
-      // double salario2 = 22.000;
-      // decimal salario3 = 23.000m;
+      // bool usuarioJaCadastrado = false;
+      // bool cadastroFeito = true;
+      // var usuarioJaCadastrado = false;
     }
   }
 }
