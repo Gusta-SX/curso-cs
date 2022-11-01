@@ -10,12 +10,12 @@ namespace Teste
     // metodo principal
     static void Main(string[] args)
     {
-      // STRING:
-      // utilizado para armazenar uma cadeia de caracteres, frases, palavras e etc
+      // VAR:
+      // substitui o nome de um tipo do primeiro valor atribuido
 
-      // string primeiraLetra = "C";
-      // string text = "frase implicante para teste";
-      // var primeiraLetra = "mesma frase para teste";
+      // var idade = 25;
+      // idade = "Andre"; - nao pode pois ja recebeu o tipo int
+      // var decimal = 23.9;
     }
   }
 }
