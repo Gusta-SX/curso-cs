@@ -10,11 +10,12 @@ namespace Teste
     // metodo principal
     static void Main(string[] args)
     {
-      // CHAR:
-      // utilizado para armazenar apenas um caractere no formato Unicode, dado por aspas simples
+      // STRING:
+      // utilizado para armazenar uma cadeia de caracteres, frases, palavras e etc
 
-      // char primeiraLetra = 'C';
-      // var primeiraLetra = 'C';
+      // string primeiraLetra = "C";
+      // string text = "frase implicante para teste";
+      // var primeiraLetra = "mesma frase para teste";
     }
   }
 }
