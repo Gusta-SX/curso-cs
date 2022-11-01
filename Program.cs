@@ -10,12 +10,11 @@ namespace Teste
     // metodo principal
     static void Main(string[] args)
     {
-      // BOOLEAN:
-      // armazena true ou false, definido pela palavra bool
+      // CHAR:
+      // utilizado para armazenar apenas um caractere no formato Unicode, dado por aspas simples
 
-      // bool usuarioJaCadastrado = false;
-      // bool cadastroFeito = true;
-      // var usuarioJaCadastrado = false;
+      // char primeiraLetra = 'C';
+      // var primeiraLetra = 'C';
     }
   }
 }
