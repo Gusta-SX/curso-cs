@@ -10,9 +10,15 @@ namespace Teste
     // metodo principal
     static void Main(string[] args)
     {
-      // BYTES:
-      // o tipo byte é usado pra representar um byte de fato, justamente com o sbyte que permite valores negativos
-      byte meuByte = 120; // por exemplo
+      // NUMEROS REAIS:
+      // numeros que precisam de melhor precisão, ou seja, virgulas
+      // - float (notação F)
+      // - double
+      // - decimal (notação m)
+
+      // float salario = 2.500f;
+      // double salario2 = 22.000;
+      // decimal salario3 = 23.000m;
     }
   }
 }
