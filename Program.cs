@@ -10,15 +10,15 @@ namespace Teste
     // metodo principal
     static void Main(string[] args)
     {
-      // VALORES PADRÕES:
-      // todo tipo built-in ja possui um valor padrão
+      // CONVERSÃO IMPLÍCITA:
+      // é comum precisarmos transformar um dado de tipo X para tipo Y
+      // as conversões podem ser implicitas e explicitas.
 
-      // int => 0
-      // float => 0
-      // decimal => 0
-      // bool => false
-      // char => '/0'
-      // String => ""
+      // as implícitas são conversões que podem ser executadas com passagem de dados e possuimos tipos compativeis:
+      float valor = 25.8F;
+      int outro = 25;
+
+      valor = outro; // posso colocar um numero int dentro do float, porem nao o contrario
 
     }
   }
