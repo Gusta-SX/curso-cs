@@ -10,10 +10,16 @@ namespace Teste
     // metodo principal
     static void Main(string[] args)
     {
-      // ALIAS:
-      // é um apelido que todo tipo tem
-      // int idade = 25;     - Alias
-      // Int32 idade = 25;   - Tipo
+      // VALORES PADRÕES:
+      // todo tipo built-in ja possui um valor padrão
+
+      // int => 0
+      // float => 0
+      // decimal => 0
+      // bool => false
+      // char => '/0'
+      // String => ""
+
     }
   }
 }
