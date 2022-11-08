@@ -10,12 +10,12 @@ namespace Teste
     // metodo principal
     static void Main(string[] args)
     {
-      // VAR:
-      // substitui o nome de um tipo do primeiro valor atribuido
+      // OBJECT:
+      // substitui o nome de um tipo e irá assumir o primeiro tipo passado
 
-      // var idade = 25;
+      // object idade = 25;
       // idade = "Andre"; - nao pode pois ja recebeu o tipo int
-      // var decimal = 23.9;
+      // object decimal = 23.9;
     }
   }
 }
