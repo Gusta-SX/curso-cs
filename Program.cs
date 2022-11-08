@@ -10,12 +10,10 @@ namespace Teste
     // metodo principal
     static void Main(string[] args)
     {
-      // NULLABLE TYPES:
-      // signifca nada, vazio, diferente de zero ou de uma string vazia
-      // para marcar como null usa-se interrogação na frente do tipo:
-
-      // int? idade = null;
-      // byte? run = null;
+      // ALIAS:
+      // é um apelido que todo tipo tem
+      // int idade = 25;     - Alias
+      // Int32 idade = 25;   - Tipo
     }
   }
 }
