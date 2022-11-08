@@ -10,12 +10,12 @@ namespace Teste
     // metodo principal
     static void Main(string[] args)
     {
-      // OBJECT:
-      // substitui o nome de um tipo e irá assumir o primeiro tipo passado
+      // NULLABLE TYPES:
+      // signifca nada, vazio, diferente de zero ou de uma string vazia
+      // para marcar como null usa-se interrogação na frente do tipo:
 
-      // object idade = 25;
-      // idade = "Andre"; - nao pode pois ja recebeu o tipo int
-      // object decimal = 23.9;
+      // int? idade = null;
+      // byte? run = null;
     }
   }
 }
