@@ -10,9 +10,14 @@ namespace Teste
     // metodo principal
     static void Main(string[] args)
     {
-      // CONVERT:
-      // similar ao parse vissto, porem permite converter varios tipos de valor, nao apenas strings
-      int valor = Convert.ToInt32("25");
+      // CONVERTENDO TIPOS:
+      int inteiro = 100;
+      float real = 25.4f;
+
+      // inteiro = real; - apresenta erro
+      // real = inteiro; - aqui funciona e fica 100.0f
+      // para funcionar seria:
+      inteiro = (int)real;
     }
   }
 }
