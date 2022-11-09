@@ -12,12 +12,13 @@ namespace Teste
     {
       // CONVERTENDO TIPOS:
       int inteiro = 100;
-      float real = 25.4f;
+      float real = 25.8f;
 
-      // inteiro = real; - apresenta erro
-      // real = inteiro; - aqui funciona e fica 100.0f
-      // para funcionar seria:
-      inteiro = (int)real;
+      // string valorReal = real.ToString();
+      // inteiro = int.Parse("233");
+      // inteiro = Convert.ToInt32(real);
+
+      Console.WriteLine(inteiro);
     }
   }
 }
