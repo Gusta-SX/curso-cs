@@ -10,11 +10,9 @@ namespace Teste
     // metodo principal
     static void Main(string[] args)
     {
-      // PARSE:
-      // método presente em todo tipo primitivo
-
-      // usado para converter um caractere ou string para um tipo qualquer, caso haja incompatibilidade, gera um erro
-      int valor = int.Parse("25");
+      // CONVERT:
+      // similar ao parse vissto, porem permite converter varios tipos de valor, nao apenas strings
+      int valor = Convert.ToInt32("25");
     }
   }
 }
