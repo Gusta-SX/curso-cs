@@ -10,12 +10,11 @@ namespace Teste
     // metodo principal
     static void Main(string[] args)
     {
-      // CONVERSÃO EXPLÍCITA:
-      // ocorre quando os tipos não são compatíveis
+      // PARSE:
+      // método presente em todo tipo primitivo
 
-      // é dada pelo uso do tipo entre parênteses antes da atribuição:
-      int valor = 25;
-      uint outro = (uint)valor;
+      // usado para converter um caractere ou string para um tipo qualquer, caso haja incompatibilidade, gera um erro
+      int valor = int.Parse("25");
     }
   }
 }
