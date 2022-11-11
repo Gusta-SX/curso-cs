@@ -10,17 +10,13 @@ namespace Teste
     // metodo principal
     static void Main(string[] args)
     {
-      // OPERADORES DE COMPARAÇÃO:
-      // podemos comparar qualquer tipo de dado. numeros bytes, strings
-      // a comparação sempre retorna VDD ou FALSE
+      // UTILIZANDO OPERADORES:
 
-      // int x = 25;
-      // x == 0; - false
-      // x != 0; - true
-      // x < 0; - true
-      // x > 0; - false
-      // x >= 0; - false
-      // x <= 0; - true
+      int x = 2;
+      x = 2 + 2;
+      x = 2 + 2 * 3;
+
+      Console.WriteLine(x);
     }
   }
 }
