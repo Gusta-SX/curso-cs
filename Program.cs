@@ -10,15 +10,19 @@ namespace Teste
     // metodo principal
     static void Main(string[] args)
     {
-      // CONVERTENDO TIPOS:
-      int inteiro = 100;
-      float real = 25.8f;
+      // OPERADORES ARITMÉTICOS:
+      // soma => +
+      // subtração => -
+      // multiplicação => *
+      // divisão => /
 
-      // string valorReal = real.ToString();
-      // inteiro = int.Parse("233");
-      // inteiro = Convert.ToInt32(real);
+      // seguindo as mesmas regras matematicas, como potenciação primeiro, parenteses e etc
+      // aceita short, int, float e afins
 
-      Console.WriteLine(inteiro);
+      int soma = 22 + 22;
+
+
+      Console.WriteLine(soma);
     }
   }
 }
