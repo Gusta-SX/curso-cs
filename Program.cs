@@ -10,19 +10,17 @@ namespace Teste
     // metodo principal
     static void Main(string[] args)
     {
-      // OPERADORES DE ATRIBUIÇÃO:
-      // utilizamos igual para atribuir um valor
-      // porém, podemos utilizar igual junto a um operador aritmético
-      // x += 5 é o mesmo que x = x + 5
+      // OPERADORES DE COMPARAÇÃO:
+      // podemos comparar qualquer tipo de dado. numeros bytes, strings
+      // a comparação sempre retorna VDD ou FALSE
 
-      int x = 0;
-      x += 5;
-      x -= 1;
-      x *= 10;
-      x /= 2;
-
-
-      Console.WriteLine(x); // x = 20
+      // int x = 25;
+      // x == 0; - false
+      // x != 0; - true
+      // x < 0; - true
+      // x > 0; - false
+      // x >= 0; - false
+      // x <= 0; - true
     }
   }
 }
