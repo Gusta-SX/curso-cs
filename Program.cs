@@ -10,13 +10,13 @@ namespace Teste
     // metodo principal
     static void Main(string[] args)
     {
-      // UTILIZANDO OPERADORES:
+      // OPERAÇÕES LÓGICOS
+      int x = 12;
+      bool entre = (x > 25) && (x < 40); // false
+      bool ou = (x > 25) || (x < 40); // true
+      bool negacao = !(x > 25); // true
 
-      int x = 2;
-      x = 2 + 2;
-      x = 2 + 2 * 3;
-
-      Console.WriteLine(x);
-    }
+      Console.WriteLine(negacao);
+     }
   }
 }
