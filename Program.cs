@@ -11,13 +11,14 @@ namespace Teste
     static void Main(string[] args)
     {
       // ESTRUTURA CONDICIONAL: IF
-      int x = 12;
+      int idade = 12;
+      int maioridade = 18;
       
       // estrutura sem chaves
-      if (x >= 12)
-        Console.WriteLine("certo");
+      if (idade >= maioridade)
+        Console.WriteLine("é maior de idade");
       else
-        Console.WriteLine("errado");
+        Console.WriteLine("é menor de idade");
      }
   }
 }
