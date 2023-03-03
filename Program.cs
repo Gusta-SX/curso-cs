@@ -15,10 +15,15 @@ namespace Teste
       int maioridade = 18;
       
       // estrutura sem chaves
-      if (idade >= maioridade)
+      if (idade > maioridade) {
         Console.WriteLine("é maior de idade");
-      else
+      }
+      else if (idade == maioridade) {
+        Console.WriteLine("é igual a idade");
+      } 
+      else {
         Console.WriteLine("é menor de idade");
+      }
      }
   }
 }
