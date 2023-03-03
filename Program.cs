@@ -13,11 +13,11 @@ namespace Teste
       // ESTRUTURA CONDICIONAL: IF
       int x = 12;
       
-      if (x >= 12) {
+      // estrutura sem chaves
+      if (x >= 12)
         Console.WriteLine("certo");
-      } else {
+      else
         Console.WriteLine("errado");
-      }
      }
   }
 }
